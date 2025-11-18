@@ -1,0 +1,16 @@
+{
+  "name": "mamonix",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf node_modules packages/api/node_modules packages/web/node_modules bun.lockb packages/a/bun.lockb packages/b/bun.lockb"
+  },
+  "private": true,
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
