@@ -3,10 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "clean": "rm -rf node_modules packages/api/node_modules packages/web/node_modules bun.lockb packages/a/bun.lockb packages/b/bun.lockb"
+    "clean": "rm -rf node_modules apps/api/node_modules apps/web/node_modules bun.lockb apps/a/bun.lockb apps/b/bun.lockb"
   },
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": ["apps/*"],
   "devDependencies": {
     "@types/bun": "latest"
   },
